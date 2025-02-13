@@ -1,0 +1,67 @@
+# Ignorar arquivos de build e binários
+bin/
+obj/
+out/
+
+# Ignorar pastas do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de cache e configurações locais
+*.dbmdl
+*.cache
+*.log
+*.pdb
+*.pidb
+*.ilk
+*.aps
+*.sdf
+*.opendb
+*.dotCover
+*.vscode/
+
+# Ignorar logs e arquivos de depuração
+**/logs/
+**/*.log
+**/TestResults/
+**/coverage/
+**/coverage.info
+
+# Ignorar pacotes do NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
+*.nuspec
+
+# Ignorar arquivos do Rider/JetBrains
+.idea/
+*.sln.iml
+
+# Ignorar arquivos do Docker e Kubernetes
+docker-compose.override.yml
+*.dockerfile
+*.env
+
+# Ignorar arquivos gerados pelo Entity Framework
+Migrations/
+
+# Ignorar arquivos de configuração locais
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignorar arquivos do Windows e macOS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Ignorar diretórios e arquivos temporários do Git
+.git/
+*.orig
+*.swp
