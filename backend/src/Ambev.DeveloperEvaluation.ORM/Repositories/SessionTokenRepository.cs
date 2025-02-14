@@ -34,7 +34,7 @@ namespace Ambev.DeveloperEvaluation.ORM.Repositories
         public async Task<SessionToken?> GetByTokenAsync(string token, CancellationToken cancellationToken = default)
         {
             return await _context.SessionTokens
-                .Where(st => st.Token == token && st.Expiration > DateTime.UtcNow) // Apenas tokens válidos
+                .Where(st => st.Token == token && st.ExpiresAt > DateTime.UtcNow) // Apenas tokens válidos
                 .FirstOrDefaultAsync(cancellationToken);
         }
 

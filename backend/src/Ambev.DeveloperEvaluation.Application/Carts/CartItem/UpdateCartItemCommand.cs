@@ -15,9 +15,4 @@ public class UpdateCartItemCommand : IRequest<bool>
     public Guid ProductId { get; set; }
     public int Quantity { get; set; }
 
-    public UpdateCartItemCommand(Guid productId, int quantity)
-    {
-        ProductId = productId;
-        Quantity = quantity;
-    }
 }

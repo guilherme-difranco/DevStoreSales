@@ -1,12 +1,581 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.application\\carts\\cartitem\\addcartitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\carts\\cartitem\\addcartitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.application\\carts\\cartitem\\addcartitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\carts\\cartitem\\addcartitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.orm\\mapping\\cartitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|solutionrelative:src\\ambev.developerevaluation.orm\\mapping\\cartitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.orm\\mapping\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|solutionrelative:src\\ambev.developerevaluation.orm\\mapping\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\updatecart\\updatecartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\updatecart\\updatecartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.application\\carts\\updatecart\\updatecartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\carts\\updatecart\\updatecartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\createcart\\createcartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\createcart\\createcartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\createcart\\createcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\createcart\\createcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\updatecart\\updatecartprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\updatecart\\updatecartprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\updatecart\\updatecarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\updatecart\\updatecarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\completecart\\completecarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\completecart\\completecarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\carteventslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\carteventslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\getcart\\getcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\getcart\\getcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\getcart\\getcartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\getcart\\getcartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\completecart\\completecartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\completecart\\completecartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\getcart\\getcartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\getcart\\getcartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\createcart\\createcartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\createcart\\createcartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\completecart\\completecartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\completecart\\completecartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\deletecart\\deletecartrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.application\\carts\\cartitem\\updatecartitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|solutionrelative:src\\ambev.developerevaluation.application\\carts\\cartitem\\updatecartitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.orm\\defaultcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62C8404-A5FA-4D58-9398-1E3C55C28D14}|src\\Ambev.DeveloperEvaluation.ORM\\Ambev.DeveloperEvaluation.ORM.csproj|solutionrelative:src\\ambev.developerevaluation.orm\\defaultcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\mappings\\createcartrequestprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\mappings\\createcartrequestprofile .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\mappings\\createuserrequestprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\mappings\\createuserrequestprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\gui\\documents\\github\\devstoresales\\backend\\src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\carts\\removeitem\\removeitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "ViewState": "AQIAADsAAAAwMzMzMzMhwFQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:50:00.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddCartItemHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemHandler.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAArwCsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:46:16.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartItemConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartItemConfiguration.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartItemConfiguration.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADgvxUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:45:15.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartConfiguration.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartConfiguration.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CartConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:44:55.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\UpdateCart\\UpdateCartCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\UpdateCart\\UpdateCartCommand.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\UpdateCart\\UpdateCartCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\UpdateCart\\UpdateCartCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:41:03.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateCartRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:41:15.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateCartProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartProfile.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:40:57.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateCartHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartHandler.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\UpdateCart\\UpdateCartHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:40:52.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetCartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartResponse.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:35:07.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetCartRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:35:05.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompleteCartHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartHandler.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:45:05.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCartItemCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemCommand.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\AddCartItemCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:26:55.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompleteCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartRequest.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:34:21.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequest.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequest.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAjwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:25:04.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateCartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartResponse.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartResponse.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIAywCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:26:14.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequest.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\GetCart\\GetCartRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:35:02.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteCartProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartProfile.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:11:42.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RemoveItemCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemCommand.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:45:46.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RemoveItemHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemHandler.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:45:57.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartEventsLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartEventsLogger.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartEventsLogger.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartEventsLogger.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartEventsLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:59:23.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RemoveItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemResponse.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:45:11.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CompleteCartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartResponse.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CompleteCart\\CompleteCartResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:34:22.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateCartItemCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\UpdateCartItemCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\UpdateCartItemCommand.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\UpdateCartItemCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Carts\\CartItem\\UpdateCartItemCommand.cs",
+              "ViewState": "AQIAAAIAAACgmZmZmRkmwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:10:57.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DeleteCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequest.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:11:45.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateCartRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CreateCart\\CreateCartRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:26:03.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DefaultContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:54:19.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteCartRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:11:46.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeleteCartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartResponse.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartResponse.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartResponse.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\DeleteCart\\DeleteCartResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:11:48.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateCartRequestProfile .cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateCartRequestProfile .cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateCartRequestProfile .cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateCartRequestProfile .cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateCartRequestProfile .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:48:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateUserRequestProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Mappings\\CreateUserRequestProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:47:34.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RemoveItemRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequestValidator.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequestValidator.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:45:01.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RemoveItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequest.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequest.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequest.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\RemoveItem\\RemoveItemRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:44:51.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartsController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartsController.cs",
+              "ToolTip": "C:\\Users\\Gui\\Documents\\GitHub\\DevStoreSales\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartsController.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Carts\\CartsController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAArwHgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:39:05.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

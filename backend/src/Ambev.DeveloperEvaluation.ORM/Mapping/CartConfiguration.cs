@@ -19,7 +19,20 @@ namespace Ambev.DeveloperEvaluation.ORM.Mapping
             builder.Property(c => c.UserId)
                 .IsRequired();
 
+            builder.Property(c => c.BranchId) //  referência à loja onde foi feita a venda
+                .IsRequired();
+
             builder.Property(c => c.Date)
+                .IsRequired();
+
+            builder.Property(c => c.TotalPrice) //  Total do carrinho
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
+
+            builder.Property(c => c.IsCompleted) //  Status de finalizado
+                .IsRequired();
+
+            builder.Property(c => c.IsCancelled) //  Status de cancelado
                 .IsRequired();
 
             // 1:N (Cart -> CartItems)

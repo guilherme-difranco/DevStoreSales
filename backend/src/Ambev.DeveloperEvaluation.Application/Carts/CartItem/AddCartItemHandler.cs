@@ -15,11 +15,13 @@ namespace Ambev.DeveloperEvaluation.Application.Carts.CartItem;
 public class AddCartItemHandler : IRequestHandler<AddCartItemCommand, AddCartItemResult>
 {
     private readonly ICartRepository _cartRepository;
+    IProductRepository _productRepository;
     private readonly IMapper _mapper;
 
-    public AddCartItemHandler(ICartRepository cartRepository, IMapper mapper)
+    public AddCartItemHandler(ICartRepository cartRepository, IProductRepository  productRepository,IMapper mapper)
     {
         _cartRepository = cartRepository;
+        _productRepository = productRepository;
         _mapper = mapper;
     }
 
@@ -35,7 +37,11 @@ public class AddCartItemHandler : IRequestHandler<AddCartItemCommand, AddCartIte
         if (cart == null)
             throw new InvalidOperationException("O carrinho não foi encontrado.");
 
-        cart.AddItem(command.ProductId, command.Quantity);
+        var product = await _productRepository.GetByIdAsync(command.ProductId, cancellationToken);
+        if (product == null)
+            throw new Exception("Produto não encontrado.");
+
+        cart.AddItem(command.ProductId, command.Quantity, product.Price);
         await _cartRepository.UpdateAsync(cart, cancellationToken);
 
         return new AddCartItemResult { CartId = cart.Id };

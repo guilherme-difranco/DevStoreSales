@@ -24,6 +24,18 @@ namespace Ambev.DeveloperEvaluation.ORM.Mapping
 
             builder.Property(ci => ci.Quantity)
                 .IsRequired();
+
+            builder.Property(ci => ci.UnitPrice) //  Preço unitário
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
+
+            builder.Property(ci => ci.Discount) //  Desconto aplicado
+                .HasColumnType("decimal(5,2)")
+                .IsRequired();
+
+            builder.Property(ci => ci.TotalAmount) // Total do item considerando o desconto
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
         }
     }
 }
