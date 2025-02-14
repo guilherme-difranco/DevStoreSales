@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ambev.DeveloperEvaluation.Domain.Entities;
+using Ambev.DeveloperEvaluation.Application.Sales.SaleItem;
 
 namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale;
 
@@ -13,7 +14,7 @@ public class CreateSaleProfile : Profile
         CreateMap<CreateSaleCommand, Sale>()
             .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.Items));
 
-        CreateMap<CreateSaleItemCommand, Domain.Entities.SaleItem>();
+        CreateMap<AddSaleItemCommand, Domain.Entities.SaleItem>();
 
         CreateMap<Sale, CreateSaleResult>();
     }

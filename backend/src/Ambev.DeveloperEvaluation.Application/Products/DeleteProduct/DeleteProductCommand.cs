@@ -21,4 +21,9 @@ public class DeleteProductCommand : IRequest<DeleteProductResult>
             Errors = result.Errors.Select(o => (ValidationErrorDetail)o)
         };
     }
+
+    public DeleteProductCommand(Guid id)
+    {
+        Id = id;
+    }
 }

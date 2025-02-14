@@ -32,7 +32,7 @@ public class UpdateProductHandler : IRequestHandler<UpdateProductCommand, Update
         if (product == null)
             throw new KeyNotFoundException($"Produto com ID {command.Id} não encontrado");
 
-        product.Name = command.Name;
+        product.Title = command.Name;
         product.Price = command.Price;
         product.Description = command.Description;
 

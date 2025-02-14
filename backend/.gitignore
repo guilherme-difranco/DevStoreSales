@@ -48,9 +48,6 @@ docker-compose.override.yml
 *.dockerfile
 *.env
 
-# Ignorar arquivos gerados pelo Entity Framework
-Migrations/
-
 # Ignorar arquivos de configuração locais
 appsettings.Development.json
 appsettings.Local.json
