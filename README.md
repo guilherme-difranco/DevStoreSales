@@ -65,24 +65,40 @@ dotnet test
 Esse comando compilará e executará todos os testes unitários e de integração.
 📌 Pelo Visual Studio
 Abra o Test Explorer (menu Test → Test Explorer).
+
 Selecione os testes desejados e clique com o botão direito para Run Selected Tests ou Debug Selected Tests.
+
 📂 Estrutura do Projeto
+
 📁 Ambev.DeveloperEvaluation.WebApi → Contém a API e seus endpoints.
+
 📁 Ambev.DeveloperEvaluation.Application → Regras de negócio e validações.
+
 📁 Ambev.DeveloperEvaluation.ORM → Contém as entidades, repositórios, DbContext e migrations.
+
 📁 Tests → Contém testes unitários e de integração.
+
 📄 docker-compose.yml → Arquivo para execução dos containers.
 
+
 📌 Boas Práticas Adotadas
+
 ✅ Gitflow → Utilização de branches (feature, develop, main) e criação de PRs para revisão.
+
 ✅ Commits Semânticos → Mensagens padronizadas para facilitar o histórico (feat, fix, refactor, etc.).
+
 ✅ Testes Automatizados → Cobertura de testes para garantir qualidade e evitar regressões.
+
 ✅ Código Limpo → Arquitetura organizada, separação de responsabilidades e boas práticas de DDD.
+
 
 📌 Considerações Finais
 🔹 Variáveis de ambiente: Verifique se as configurações de conexão com o banco e outras variáveis estão corretamente definidas.
+
 🔹 Docker: Certifique-se de que os containers da API e do PostgreSQL estão na mesma rede (shared-net).
+
 🔹 Contribuições: Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias!
 
 📌 Agora o projeto está pronto para rodar e ser testado! 🚀
+
 
