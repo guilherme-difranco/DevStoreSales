@@ -13,11 +13,13 @@ public class UpdateCartHandler : IRequestHandler<UpdateCartCommand, UpdateCartRe
 {
     private readonly ICartRepository _cartRepository;
     private readonly IMapper _mapper;
+    private readonly CartEventsLogger _eventLogger;
 
-    public UpdateCartHandler(ICartRepository cartRepository, IMapper mapper)
+    public UpdateCartHandler(ICartRepository cartRepository, IMapper mapper, CartEventsLogger eventLogger)
     {
         _cartRepository = cartRepository;
         _mapper = mapper;
+        _eventLogger = eventLogger;
     }
 
     public async Task<UpdateCartResult> Handle(UpdateCartCommand request, CancellationToken cancellationToken)
@@ -44,6 +46,8 @@ public class UpdateCartHandler : IRequestHandler<UpdateCartCommand, UpdateCartRe
                 Quantity = item.Quantity
             });
         }
+
+        _eventLogger.LogSaleModified(cart.Id);
 
         await _cartRepository.UpdateAsync(cart, cancellationToken);
 

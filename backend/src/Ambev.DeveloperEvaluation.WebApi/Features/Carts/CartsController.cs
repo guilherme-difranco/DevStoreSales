@@ -6,17 +6,14 @@ using Ambev.DeveloperEvaluation.Application.Carts.CreateCart;
 using Ambev.DeveloperEvaluation.Application.Carts.GetCart;
 using Ambev.DeveloperEvaluation.Application.Carts.DeleteCart;
 using Ambev.DeveloperEvaluation.Application.Carts.UpdateCart;
+using Ambev.DeveloperEvaluation.Application.Carts.RemoveItem;
+using Ambev.DeveloperEvaluation.Application.Carts.CompleteCart;
 using Ambev.DeveloperEvaluation.WebApi.Features.Carts.CreateCart;
 using Ambev.DeveloperEvaluation.WebApi.Features.Carts.GetCart;
 using Ambev.DeveloperEvaluation.WebApi.Features.Carts.DeleteCart;
-using Ambev.DeveloperEvaluation.Application.Products.DeleteProduct;
-using Ambev.DeveloperEvaluation.WebApi.Features.Products.DeleteProduct;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Carts;
 
-/// <summary>
-/// Controller for managing cart operations.
-/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class CartsController : BaseController
@@ -24,11 +21,6 @@ public class CartsController : BaseController
     private readonly IMediator _mediator;
     private readonly IMapper _mapper;
 
-    /// <summary>
-    /// Initializes a new instance of CartsController.
-    /// </summary>
-    /// <param name="mediator">The mediator instance.</param>
-    /// <param name="mapper">The AutoMapper instance.</param>
     public CartsController(IMediator mediator, IMapper mapper)
     {
         _mediator = mediator;
@@ -64,18 +56,9 @@ public class CartsController : BaseController
     /// Retrieves a cart by ID.
     /// </summary>
     [HttpGet("{id}")]
-    [ProducesResponseType(typeof(ApiResponseWithData<GetCartResponse>), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetCart([FromRoute] Guid id, CancellationToken cancellationToken)
     {
         var request = new GetCartRequest { Id = id };
-        var validator = new GetCartRequestValidator();
-        var validationResult = await validator.ValidateAsync(request, cancellationToken);
-
-        if (!validationResult.IsValid)
-            return BadRequest(validationResult.Errors);
-
         var command = _mapper.Map<GetCartCommand>(request);
         var response = await _mediator.Send(command, cancellationToken);
 
@@ -91,19 +74,10 @@ public class CartsController : BaseController
     /// Updates a cart by ID.
     /// </summary>
     [HttpPut("{id}")]
-    [ProducesResponseType(typeof(ApiResponseWithData<UpdateCartResult>), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> UpdateCart([FromRoute] Guid id, [FromBody] UpdateCartCommand request, CancellationToken cancellationToken)
     {
         if (id != request.CartId)
             return BadRequest(new ApiResponse { Success = false, Message = "Cart ID mismatch" });
-
-        var validator = new UpdateProductRequestValidator();
-        var validationResult = await validator.ValidateAsync(request, cancellationToken);
-
-        if (!validationResult.IsValid)
-            return BadRequest(validationResult.Errors);
 
         var command = _mapper.Map<UpdateCartCommand>(request);
         var response = await _mediator.Send(command, cancellationToken);
@@ -120,9 +94,6 @@ public class CartsController : BaseController
     /// Deletes a cart by ID.
     /// </summary>
     [HttpDelete("{id}")]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
-    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteCart([FromRoute] Guid id, CancellationToken cancellationToken)
     {
         var command = new DeleteCartRequest { Id = id };
@@ -132,6 +103,39 @@ public class CartsController : BaseController
         {
             Success = true,
             Message = "Cart deleted successfully"
+        });
+    }
+
+    /// <summary>
+    /// Removes an item from the cart.
+    /// </summary>
+    [HttpDelete("{cartId}/items/{productId}")]
+    public async Task<IActionResult> RemoveItem([FromRoute] Guid cartId, [FromRoute] Guid productId, CancellationToken cancellationToken)
+    {
+        var command = new RemoveItemCommand { CartId = cartId, ProductId = productId };
+        await _mediator.Send(command, cancellationToken);
+
+        return Ok(new ApiResponse
+        {
+            Success = true,
+            Message = "Item removed successfully"
+        });
+    }
+
+    /// <summary>
+    /// Completes a cart (checkout).
+    /// </summary>
+    [HttpPost("{id}/complete")]
+    public async Task<IActionResult> CompleteCart([FromRoute] Guid id, CancellationToken cancellationToken)
+    {
+        var command = new CompleteCartRequest { Id = id };
+        var response = await _mediator.Send(command, cancellationToken);
+
+        return Ok(new ApiResponseWithData<CompleteCartResponse>
+        {
+            Success = true,
+            Message = "Cart completed successfully",
+            Data = response
         });
     }
 }
