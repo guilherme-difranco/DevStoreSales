@@ -224,3 +224,4 @@ C:\Users\Gui\Documents\GitHub\DevStoreSales\backend\tests\Ambev.DeveloperEvaluat
 C:\Users\Gui\Documents\GitHub\DevStoreSales\backend\tests\Ambev.DeveloperEvaluation.Unit\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Unit.pdb
 C:\Users\Gui\Documents\GitHub\DevStoreSales\backend\tests\Ambev.DeveloperEvaluation.Unit\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Unit.genruntimeconfig.cache
 C:\Users\Gui\Documents\GitHub\DevStoreSales\backend\tests\Ambev.DeveloperEvaluation.Unit\obj\Debug\net8.0\ref\Ambev.DeveloperEvaluation.Unit.dll
+C:\Users\Gui\Documents\GitHub\DevStoreSales\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\Moq.dll
