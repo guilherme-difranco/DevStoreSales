@@ -47,7 +47,6 @@ public class Cart : BaseEntity
             });
         }
     }
-
     public void RemoveItem(Guid productId)
     {
         var item = Items.FirstOrDefault(i => i.ProductId == productId);
@@ -56,7 +55,6 @@ public class Cart : BaseEntity
             Items.Remove(item);
         }
     }
-
     public async Task CompleteCart(IProductRepository productRepository)
     {
         if (IsCompleted)
